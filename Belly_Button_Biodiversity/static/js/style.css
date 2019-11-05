@@ -1,6 +1,8 @@
+@import url(//db.onlinewebfonts.com/c/3b6a3b46f2fbe16704b7d85493e7c38e?family=Ren+&+Stimpy);
+@font-face {font-family: "Ren & Stimpy"; src: url("//db.onlinewebfonts.com/t/3b6a3b46f2fbe16704b7d85493e7c38e.eot"); src: url("//db.onlinewebfonts.com/t/3b6a3b46f2fbe16704b7d85493e7c38e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3b6a3b46f2fbe16704b7d85493e7c38e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3b6a3b46f2fbe16704b7d85493e7c38e.woff") format("woff"), url("//db.onlinewebfonts.com/t/3b6a3b46f2fbe16704b7d85493e7c38e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3b6a3b46f2fbe16704b7d85493e7c38e.svg#Ren & Stimpy") format("svg"); }
 html,
 body {
-  font: 15px Snowburst One;
+  font-family: "Ren & Stimpy";
   color: rgb(255, 217, 0);
 
   height: 100%;
@@ -8,23 +10,27 @@ body {
   margin: 0;
   /* background: #0f2512; */
   /* background: #15361b; */
-  background-image: url("bacteria_by_filterforgedotcom.jpg");
-  background-size: 105%; 
+  /* background-image: url("bacteria_by_filterforgedotcom.jpg");
+  background-size: 105%;  */
+  background-image: url("maxresdefault.jpg");
+  background-size: 100%; 
   /* background: linear-gradient(114deg, rgba(240,202,0,1) 0%, rgba(19,121,9,1) 39%, rgba(3,121,219,1) 60%, rgba(150,255,0,1) 100%); */
 }
 
-h1 {
-  font: 15px Snowburst One;
+h1 { 
+  font-family: "Ren & Stimpy";
   font-size: 35px;
+  font-weight: bold;
+
   color: rgb(63, 28, 5);
-  text-shadow: 3px 2px 3px #e6ff05;
+  /* text-shadow: 3px 2px 3px #e6ff05; */
   /* text-shadow: 12px 0px 12px white ; */
 }
 h2 {
   font-size: 25px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   /* text-shadow: 2px 2px rgb(0, 45, 87); */
-  text-shadow: 3px 2px 3px #e6ff05;  
+  text-shadow: 3px 2px 3px #ffffff;  
 
 }
 h3 {
@@ -35,25 +41,23 @@ h4 {
   color: rgb(13, 21, 51, .7);
   text-shadow: 2px 0px 2px white ;
 }
-
 .jumbotron {
-  font: 15px Snowburst One;
-  text-shadow: 1px 2px 1px #e6ff05;
+  font-family: "Ren & Stimpy";
+  text-shadow: 1px 2px 1px #ffffff;
   
   font-size: 35px;
-  color: rgb(70, 145, 0);
-  
+  color: rgb(0, 0, 0);
+  font-weight: bold;
   /* box-shadow: 5px 10px 40px  #5adfd6;
   padding: 10px; */
   background:rgba(8, 77, 77, 0);
+  /* background-image: url("maxresdefault.jpg");
+  background-size: 100%;  */
 
 }
 div {
   background: rgba(68, 56, 1, 0);
   color: rgb(255, 217, 0);
-    
-  font: 20px Snowburst One;
-
   /* background: rgb(240,202,0);
   background: linear-gradient(114deg, rgba(240,202,0,1) 0%, rgba(19,121,9,1) 39%, rgba(3,121,219,1) 60%, rgba(150,255,0,1) 100%); */
 }
@@ -68,8 +72,7 @@ div {
 .main-svg {
   width: 100%;
   padding: 10px;
-  font: 20px Snowburst One;
-
+  font-family: "Ren & Stimpy";
   color: rgb(255, 217, 0);
   background: rgba(3, 30, 34, 0);
   /* border: 4px; */
@@ -77,7 +80,7 @@ div {
 .svg-container {
   width: 100%;
   padding: 10px;
-  font: 20px Snowburst One;
+  font-family: "Ren & Stimpy";  
   color: rgb(255, 217, 0);
   background: rgba(3, 30, 34, 0);
   /* border: 4px; */
@@ -86,7 +89,7 @@ div {
 .plot-container {
   width: 100%;
   padding: 10px;
-  font: 20px Snowburst One;
+  font-family: "Ren & Stimpy";  
   color: rgb(255, 217, 0);
   background: rgba(3, 30, 34, 0);
   /* border: 4px; */
@@ -95,14 +98,14 @@ div {
   width: 100%;
   padding: 10px;
   color: rgb(255, 217, 0);
-  background: rgba(68, 56, 1, 0.432);
+  background: rgba(100, 82, 2, 0.432);
   /* border: 4px; */
 }
 .well {
   width: 100%;
   padding: 10px;
   color: rgb(255, 217, 0);
-  background: rgba(102, 84, 6, 0.432);
+  background: rgba(102, 82, 2, 0.432);
   /* border: 4px; */
 }
 
