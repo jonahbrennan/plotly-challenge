@@ -140,7 +140,7 @@ function buildCharts(sample) {
   let otuIds1 = data.otu_ids;
   let otuLabels1 = data.otu_labels;
   
-    console.log(sampleValues);
+    console.log(otuLabels1);
 
     // function init() {
       var data = [{
@@ -171,9 +171,9 @@ function buildCharts(sample) {
       x: otuIds1,
       y: sampleValues1,
       mode: 'markers',
+      hovertext: otuLabels1,
       marker: {
-        hovertext: otuLabels1,
-        size: sampleValues1,
+          size: sampleValues1,
         color: otuIds1
       }
     };
